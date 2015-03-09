@@ -1,0 +1,7 @@
+<div class="left">
+     <ul id="list">
+     <a href="<?php echo url2('/comp')?>"><li <?php if($bj['tb']=='cmp'){echo 'id="left_list"';}?>>插件</li></a>
+     <a href="<?php echo url2('/tools')?>"><li <?php if($bj['tb']=='too'){echo 'id="left_list"';}?>>工具箱</li></a>
+     <a href="<?php echo url2('/game')?>"><li <?php if($bj['tb']=='gam'){echo 'id="left_list"';}?>>游戏</li></a>
+     </ul>   
+</div>

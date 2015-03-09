@@ -1,0 +1,7 @@
+<div class="left">
+     <ul id="list">
+     <a href="<?php echo url2('/user')?>"><li <?php if($bj['tb']=='lis'){echo 'id="left_list"';}?>>用户列表</li></a>
+     <a href="<?php echo url2('/user/userGroup')?>"><li <?php if($bj['tb']=='gro'){echo 'id="left_list"';}?>>用户组</li></a>
+     <a href="<?php echo url2('/user/userPower')?>"><li <?php if($bj['tb']=='pow'){echo 'id="left_list"';}?>>权限设置</li></a>
+     </ul>    
+</div>

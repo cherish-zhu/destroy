@@ -1,0 +1,9 @@
+<div class="left">
+     <ul id="list">
+     <a href="<?php echo url2('/appshop')?>"><li <?php if($bj['tb']=='app'){echo 'id="left_list"';}?>>应用超市</li></a>
+     <a href="<?php echo url2('/content/read')?>" ><li <?php if($bj['tb']=='con'){echo 'id="left_list"';}?>>文章</li></a>
+     <a href="<?php echo url2('/album')?>"><li <?php if($bj['tb']=='alb'){echo 'id="left_list"';}?>>相册</li></a>
+     <a href="<?php echo url2('/comm')?>"><li <?php if($bj['tb']=='com'){echo 'id="left_list"';}?>>留言评论</li></a>
+     <a href="<?php echo url2('/links')?>"><li <?php if($bj['tb']=='lin'){echo 'id="left_list"';}?>>网络链接</li></a>
+     </ul>   
+</div>
